@@ -22,7 +22,7 @@
 
 .card::after,
 .card::before {
-	--angle: 10deg;
+	/* --angle: 0deg; */
 	content: '';
 	position: absolute;
 	height: calc(100% + 3px);
@@ -35,7 +35,7 @@
 	translate: -50% -50%;
 	z-index: -1;
 	background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
-	animation: 3s spin linear infinite;
+	animation: 1s spin linear infinite;
 }
 .card::before {
 	filter: blur(1.5rem);

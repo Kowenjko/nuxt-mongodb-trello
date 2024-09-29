@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const route = useRoute()
 
+definePageMeta({
+	middleware: 'auth',
+})
+
 useHead({
 	title: 'New Trello',
 })
@@ -8,8 +12,7 @@ useHead({
 
 <template>
 	<div class="flex flex-col text-center justify-center items-center h-screen">
-		<h1>Nuxt Routing set up successfully!</h1>
-		<p class="mb-5">Current route: {{ route.name }}</p>
-		<AnimationCard />
+		<h1>Index</h1>
+		<nuxt-link to="/auth/signin">About</nuxt-link>
 	</div>
 </template>

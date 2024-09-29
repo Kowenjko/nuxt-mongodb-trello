@@ -16,6 +16,7 @@
     "mongoose": "^8.7.0",
     "next-auth": "4.21.1",
     "nuxt": "^3.13.0",
+    "nuxt-server-utils": "^0.0.7",
     "nuxt-typed-router": "^3.7.0",
     "stripe": "^16.12.0",
     "vue": "latest",
@@ -25,6 +26,8 @@
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "devDependencies": {
     "@sidebase/nuxt-auth": "^0.9.3",
+    "@types/bcryptjs": "^2.4.6",
+    "h3-zod": "^0.5.3",
     "zod": "^3.23.8"
   }
 }

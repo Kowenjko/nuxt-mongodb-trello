@@ -961,7 +961,7 @@
     pathe "^1.1.2"
     std-env "^3.7.0"
 
-"@nuxt/kit@3.13.2", "@nuxt/kit@^3.12.3", "@nuxt/kit@^3.12.4", "@nuxt/kit@^3.13.0", "@nuxt/kit@^3.13.1", "@nuxt/kit@^3.13.2":
+"@nuxt/kit@3.13.2", "@nuxt/kit@^3.12.3", "@nuxt/kit@^3.12.4", "@nuxt/kit@^3.13.0", "@nuxt/kit@^3.13.1", "@nuxt/kit@^3.13.2", "@nuxt/kit@^3.5.2":
   version "3.13.2"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.13.2.tgz"
   integrity sha512-KvRw21zU//wdz25IeE1E5m/aFSzhJloBRAQtv+evcFeZvuroIxpIQuUqhbzuwznaUwpiWbmwlcsp5uOWmi4vwA==
@@ -1457,6 +1457,11 @@
   version "0.2.0"
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
+
+"@types/bcryptjs@^2.4.6":
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/@types/bcryptjs/-/bcryptjs-2.4.6.tgz#2b92e3c2121c66eba3901e64faf8bb922ec291fa"
+  integrity sha512-9xlo6R2qDs5uixm0bcIqCeMCE6HiQsIyel9KQySStiyqNl2tnj2mP3DX1Nf56MD6KMenNNlBBsy3LJ7gUEQPXQ==
 
 "@types/estree@*", "@types/estree@1.0.6", "@types/estree@^1.0.0":
   version "1.0.6"
@@ -3331,6 +3336,11 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
+h3-zod@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/h3-zod/-/h3-zod-0.5.3.tgz#d961f15000d71bca933456f6efd102149b7993bc"
+  integrity sha512-wqlRd/d5d9sNYxmNglnL63J4v5HiZZrcXdLIiU2cBsy5gTwxrSH1AqtNrVkuUleshgNOAQldbuO06phdUIxuKA==
+
 h3@^1.12.0:
   version "1.12.0"
   resolved "https://registry.npmjs.org/h3/-/h3-1.12.0.tgz"
@@ -4471,6 +4481,13 @@ nuxi@^3.13.2:
   version "3.14.0"
   resolved "https://registry.npmjs.org/nuxi/-/nuxi-3.14.0.tgz"
   integrity sha512-MhG4QR6D95jQxhnwKfdKXulZ8Yqy1nbpwbotbxY5IcabOzpEeTB8hYn2BFkmYdMUB0no81qpv2ldZmVCT9UsnQ==
+
+nuxt-server-utils@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/nuxt-server-utils/-/nuxt-server-utils-0.0.7.tgz#c8fe5f183c2049eeb426fc56ce10307c6e0da055"
+  integrity sha512-oWuYr2yXNvS7f2xkAluNIUHU+Fxnhjop3Dk1IW2FbpDCp46xN/lcDczguKq+ZLLimwtX0VWfjbhEZfI4UsSVNA==
+  dependencies:
+    "@nuxt/kit" "^3.5.2"
 
 nuxt-typed-router@^3.7.0:
   version "3.7.0"
