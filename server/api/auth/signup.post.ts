@@ -2,8 +2,8 @@ import SignupSchema from '~/schemas/Signup.schema'
 import { User } from '@/server/models/User.model'
 
 import { Validator } from '#nuxt-server-utils'
-import { Board } from '@/server/models/Board'
-import { List } from '@/server/models/List'
+import { Board } from '~/server/models/Board.model'
+import { List } from '~/server/models/List.model'
 
 export default defineEventHandler(async (event) => {
 	const body = await readBody(event)

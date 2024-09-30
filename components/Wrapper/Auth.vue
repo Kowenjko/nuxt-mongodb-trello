@@ -9,7 +9,7 @@ defineProps({
 	<div class="grid lg:grid-cols-2 h-screen bg-gray-100 dark:bg-gray-950">
 		<div class="left place-self-center w-full px-8 md:px-16 lg:px-24 xl:px-36 2xl:px-52">
 			<div class="header text-center mb-6">
-				<div class="flex justify-center my-4"><Logo /></div>
+				<div class="flex justify-center my-4"><Logo class="block lg:hidden" /></div>
 				<h1 class="text-xl font-bold mb-px">{{ title }}</h1>
 				<slot name="header"></slot>
 			</div>
@@ -17,7 +17,9 @@ defineProps({
 				<slot />
 			</UCard>
 		</div>
-		<div class="right hidden lg:block"></div>
+		<div class="right hidden lg:flex justify-center">
+			<Logo class="text-white" />
+		</div>
 	</div>
 </template>
 
