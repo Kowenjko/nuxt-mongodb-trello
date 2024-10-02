@@ -63,7 +63,6 @@ watchEffect(() => {
 				"
 			/>
 		</USlideover>
-		<!-- ./ Sidesheet  -->
 
 		<!-- List of boards -->
 		<section class="grid grid-cols-2 lg:grid-cols-5 my-4 gap-4">

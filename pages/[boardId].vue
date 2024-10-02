@@ -8,6 +8,7 @@ definePageMeta({
 
 const { boardId } = useRoute().params
 const showCreateList = ref(false)
+const selectedList = ref<ListDocument | null>(null)
 
 const { data, refresh } = await useFetch<BoardDocument>(`/api/boards/${boardId}`)
 
@@ -45,17 +46,18 @@ const lists = computed(() => data.value?.lists as ListDocument[])
 			{{ data!.name }}
 		</h1>
 
-		<!-- <ListContainer :lists="lists" :board-id="(boardId as string)" /> -->
+		<ListContainer :lists="lists" :board-id="boardId as string" />
 
 		<USlideover v-model="showCreateList">
 			<SlideoverHeader
-				title="Create list"
+				:title="selectedList ? 'Update list' : 'Create list'"
 				:on-click="() => (showCreateList = false)"
 			></SlideoverHeader>
 
 			<FormList
-				type="create"
-				:board-id="boardId as string"
+				:type="selectedList ? 'update' : 'create'"
+				:board-id="String(boardId)"
+				:initial-data="selectedList"
 				:on-create="
 					() => {
 						refresh()
