@@ -19,5 +19,3 @@
 		<div class="text-xl text-nowrap font-bold">New Trello</div>
 	</div>
 </template>
-
-<style></style>

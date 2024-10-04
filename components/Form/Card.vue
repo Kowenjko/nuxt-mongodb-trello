@@ -122,11 +122,11 @@ watchEffect(() => {
 	</UForm>
 </template>
 
-<style>
+<!-- <style lang="css" scoped>
 .ql-container {
 	@apply h-32 rounded-b-lg shadow;
 }
 .ql-toolbar {
 	@apply rounded-t-lg;
 }
-</style>
+</style> -->

@@ -148,7 +148,7 @@ watch(showCreateCard, (value) => {
 	</div>
 </template>
 
-<style scoped>
+<!-- <style lang="css" scoped>
 .ghost-card {
 	@apply !bg-gray-100 dark:!bg-gray-700 rounded-lg;
 }
@@ -163,4 +163,4 @@ watch(showCreateCard, (value) => {
 	opacity: 1 !important;
 	cursor: grabbing;
 }
-</style>
+</style> -->

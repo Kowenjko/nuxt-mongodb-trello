@@ -76,5 +76,3 @@ watchEffect(() => {
 		<!-- ./ List of boards -->
 	</WrapperDefault>
 </template>
-
-<style></style>

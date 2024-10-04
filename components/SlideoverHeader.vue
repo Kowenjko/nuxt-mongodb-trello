@@ -10,5 +10,3 @@ defineProps<{
 		<UButton color="gray" variant="ghost" icon="i-heroicons-x-mark-20-solid" @click="onClick" />
 	</div>
 </template>
-
-<style></style>

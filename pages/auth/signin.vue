@@ -27,5 +27,3 @@ const { formState, isLoading, validationSchema, handleSubmit } = useSignin()
 		</UForm>
 	</WrapperAuth>
 </template>
-
-<style></style>

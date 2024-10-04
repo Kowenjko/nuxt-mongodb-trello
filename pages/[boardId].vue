@@ -76,5 +76,3 @@ const lists = computed(() => data.value?.lists as ListDocument[])
 		</USlideover>
 	</WrapperDefault>
 </template>
-
-<style></style>

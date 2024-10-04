@@ -14,5 +14,3 @@ const props = defineProps<Props>()
 		{{ card.title }}
 	</div>
 </template>
-
-<style></style>

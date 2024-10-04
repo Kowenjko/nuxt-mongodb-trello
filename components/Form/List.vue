@@ -87,5 +87,3 @@ async function handleSubmit(e: FormSubmitEvent<z.output<typeof ListSchema>>) {
 		</UButton>
 	</UForm>
 </template>
-
-<style></style>

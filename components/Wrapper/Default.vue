@@ -78,5 +78,3 @@ async function handleSignout() {
 		</main>
 	</div>
 </template>
-
-<style></style>

@@ -56,5 +56,3 @@ const actions = ref([
 		</div>
 	</div>
 </template>
-
-<style></style>

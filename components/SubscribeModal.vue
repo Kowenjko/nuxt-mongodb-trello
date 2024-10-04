@@ -20,5 +20,3 @@ const { subscriptionModalState, modalTitle, modalDescription, isLoading, subscri
 		</UModal>
 	</div>
 </template>
-
-<style></style>

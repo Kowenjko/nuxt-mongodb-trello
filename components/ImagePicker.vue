@@ -30,5 +30,3 @@ defineEmits<{
 		</li>
 	</ol>
 </template>
-
-<style></style>

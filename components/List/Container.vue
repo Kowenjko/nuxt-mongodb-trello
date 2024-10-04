@@ -40,7 +40,7 @@ async function handleSort(e: any) {
 	</div>
 </template>
 
-<style>
+<!-- <style lang="css">
 .ghost-board > div {
 	@apply opacity-50;
 }
@@ -55,5 +55,5 @@ async function handleSort(e: any) {
 .list .sortable-chosen {
 	overflow: hidden;
 	opacity: 1 !important;
-}
-</style>
+} -->
+<!-- </style> -->

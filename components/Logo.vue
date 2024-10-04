@@ -23,5 +23,3 @@
 		<div class="text-2xl font-bold">New Trello</div>
 	</div>
 </template>
-
-<style></style>
