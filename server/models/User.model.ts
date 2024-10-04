@@ -58,6 +58,9 @@ const userSchema = new Schema(
 		toJSON: {
 			virtuals: true,
 		},
+		toObject: {
+			virtuals: true,
+		},
 	}
 )
 
@@ -82,7 +85,9 @@ userSchema.methods.updateSubscription = async function (data: Stripe.Subscriptio
 }
 
 userSchema.virtual('hasActiveSubscription').get(function (this: UserDocument) {
-	const allowedStatuses = ['active', 'trialing']
+	const allowedStatuses = ['active', 'trialing', 'incomplete']
+
+	console.log(this.subscription.status)
 
 	return allowedStatuses.includes(this.subscription.status)
 })

@@ -2,6 +2,8 @@
 import type { UserDocument } from '@/server/models/User.model'
 const { data, signOut } = useAuth()
 
+console.log(data.value?.user)
+
 const { showSubscriptionModal, accessPortal } = useSubscription()
 
 const dropdownItems = ref([
