@@ -23,6 +23,7 @@ if (!data.value) {
 
 useHead({
 	title: data.value.name,
+	titleTemplate: '%s - Boards',
 })
 
 const coverImage = computed(() => data.value?.coverImage || '')
