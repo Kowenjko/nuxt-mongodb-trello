@@ -125,7 +125,7 @@ watch(showCreateCard, (value) => {
 				></SlideoverHeader>
 				<div class="p-4">
 					<FormCard
-						:list-id="list._id"
+						:list-id="String(list._id)"
 						:type="selectedCard ? 'update' : 'create'"
 						:initial-data="selectedCard"
 						:on-create="
